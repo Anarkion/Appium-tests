@@ -12,13 +12,13 @@ exports.config = {
       host: 'localhost',
       port: 4723,
       platform: 'Android',
+      restart: false,
       capabilities: {
         platformName: "Android",
         platformVersion: "7.1",
-        deviceName: "Android Emulator",
+        deviceName: "emulator-5554",
         appPackage: "com.android.calculator2",
-        appActivity: "com.android.calculator2.Calculator",
-        automationName: "UiAutomator2"
+        appActivity: "com.android.calculator2.Calculator"
       }
     }
   },
